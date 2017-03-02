@@ -71,8 +71,6 @@ public class LivingDaysServlet extends HttpServlet {
 		
 		todayDate2.add(Calendar.DAY_OF_YEAR, 1);
 		
-		System.out.println(birthdayDate.getTimeInMillis());
-		System.out.println(todayDate.getTimeInMillis());
 		return (todayDate.getTimeInMillis() - birthdayDate.getTimeInMillis());
 	}
 
